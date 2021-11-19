@@ -147,9 +147,9 @@ p{
     font-size: 12px;
 }
 .testi{
-    padding-top:230px;
+    
     padding-left:20vw ;
-    padding-bottom:20vw ;
+   
 }
 .team{
     margin-left:8% ;
@@ -228,6 +228,28 @@ footer input{
 .mail{
     width:60%;
 }
-
-
-
+.overlay{
+    height:100%;
+    background-color: blue;
+    position:relative;
+    z-index: 1;
+    opacity: 0.2;
+    
+    
+}
+.testi{
+    position:absolute;
+    top:30%;
+    z-index: 2;
+}
+.testimonial{
+    position:relative;
+}
+.short a{
+    margin-right: 15px;
+}
+.border{
+    border:2px solid white;
+    transform: translate(-30px, -30px);
+    z-index:3;
+}
